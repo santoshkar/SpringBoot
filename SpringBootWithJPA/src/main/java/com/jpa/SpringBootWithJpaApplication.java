@@ -31,4 +31,14 @@ CREATE TABLE employee (
     FOREIGN KEY (dept_id) REFERENCES department(id) ON DELETE CASCADE
 );
 
+insert into department (name) values ('IT');
+insert into department (name) values ('Accounts');
+insert into department (name) values ('HR');
+
+insert into employee(name, dept_id) values ('santosh',1);
+insert into employee(name, dept_id) values ('Binay',1);
+insert into employee(name, dept_id) values ('Deepti',2);
+insert into employee(name, dept_id) values ('Bill',3);
+
+
 */
