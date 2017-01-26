@@ -5,9 +5,9 @@ Before working on this application, make sure the RabbitMQ is already installed 
 
 application.properties
 -----------------------
-spring.rabbitmq.host=localhost
-spring.rabbitmq.port=5672
-spring.rabbitmq.username=guest
+spring.rabbitmq.host=localhost<br>
+spring.rabbitmq.port=5672<br>
+spring.rabbitmq.username=guest<br>
 spring.rabbitmq.password=guest
 
 
