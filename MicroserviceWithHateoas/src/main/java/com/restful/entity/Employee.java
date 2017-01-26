@@ -31,6 +31,16 @@ public class Employee extends ResourceSupport{
 	public void setEmpAddress(String empAddress) {
 		this.empAddress = empAddress;
 	}
-	
+
+	public Employee(Long empId, String name,  String empAddress) {
+		super();
+		this.name = name;
+		this.empId = empId;
+		this.empAddress = empAddress;
+	}
+
+	public Employee() {
+		super();
+	}
 	
 }
