@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HateoasApplication {
+public class RestfulControllerWithRepo {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HateoasApplication.class, args);
+		SpringApplication.run(RestfulControllerWithRepo.class, args);
 	}
 
 }

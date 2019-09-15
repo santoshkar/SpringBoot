@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.learning</groupId>
-	<artifactId>hateoas</artifactId>
+	<artifactId>RestfulControllerWithRepo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>hateoas</name>
-	<description>hateoas test</description>
+	<name>RestfulControllerWithRepo</name>
+	<description>Restful Controller With Spring Data</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -23,10 +23,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
